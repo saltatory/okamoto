@@ -9,10 +9,11 @@ The key innovation of the paper and therefore of this library is in permitting *
 
 # Features
 
-* `bls12_381_plain` (default): Plain implementation over the [BLS12-128](http://docs.rs/bls12_381) elliptic curve secure against constant-depth concurrent adversaries (not secure against fully concurrent adversaries).
+* `bls12_381_plain` (default): Plain implementation over the [BLS12-128](http://docs.rs/bls12_381) elliptic curve secure against constant-depth concurrent adversaries (not secure against fully concurrent adversaries)
+* `bls12_381_crs` (default): Common reference string (CRS) implementation over the [BLS12-128](http://docs.rs/bls12_381) elliptic curve secure fully concurrent adversaries
 
 
-# Sequence
+# Sequence - Plain
 
 ```mermaid
 sequenceDiagram
@@ -52,8 +53,8 @@ Using algorithms from:
 
 # Licensing
 
-* [GPL 3.0](https://spdx.org/licenses/GPL-3.0-only.html) or [GPL 3.0](./LICENSE-GPL-3.0.md)
-* [Commercial](./LICENSE-COMMERCIAL.md)
+* [Business Source License (BUSL)](./LICENSE.md)
+* Commercial licensing available upon request
 
 # Copyright
 

@@ -1,3 +1,7 @@
+// Copyright (c) Jeffrey Hohenstein <jeffrey.hohenstein@gmail.com>
+//
+// All rights reserved.
+
 use std::time::Duration;
 use bls12_381::Scalar;
 use criterion::{criterion_group, criterion_main, Criterion};

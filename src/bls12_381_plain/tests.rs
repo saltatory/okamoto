@@ -1,3 +1,7 @@
+// Copyright (c) Jeffrey Hohenstein <jeffrey.hohenstein@gmail.com>
+//
+// All rights reserved.
+
 use bls12_381::{G1Affine, G1Projective, G2Projective, Scalar};
 use ff::Field;
 use rand::rngs::ThreadRng;

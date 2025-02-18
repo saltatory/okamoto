@@ -1,3 +1,7 @@
+// Copyright (c) Jeffrey Hohenstein <jeffrey.hohenstein@gmail.com>
+//
+// All rights reserved.
+
 //! Okamoto Blind Signatures
 //!
 //! # References

@@ -14,7 +14,8 @@ ff = "0.13.0"
 rand = "0.8.5"
 
 [features]
-default = ["bls12_381_plain"]
+# todo temporary
+default = ["bls12_381_plain", "bls12_381_crs"]
 bls12_381_plain = ["bls12_381"]
 bls12_381_crs = ["bls12_381"]
 
